@@ -1,0 +1,48 @@
+.second {
+  /* display: none;  */
+  /* ei tag element ta k totally hide kore dey */
+  /* visibility: hidden;  */
+  /* ei tag ta element ta k just hide kore dibe but position blank hoye thakbe */
+}
+* {
+  margin: 0;
+}
+.Blog {
+  background-color: aquamarine;
+  /* border: 5px solid tomato; */
+  border: 10px solid tomato;
+  border-radius: 10px;
+  /* border-bottom: none ; */
+  /* margin: 10px 50px 100px; top right&left bottom  */
+  /* margin: 40px; */
+  padding: 10px 20px;
+  text-align: justify;
+  /* (nicher eita hocche box er niche shawod niye asa)
+        10px 10px 10px er mane ami koto ta shadow chorate chai */
+  box-shadow: 10px 10px 10px blueviolet;
+}
+h3 {
+  text-decoration: underline;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.header {
+  height: 300px;
+  /* background-color: blanchedalmond; */
+  background-image: url(image1.jpg);
+  /* background-repeat: none; */
+  /* background-repeat: repeat-x; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.p {
+  color: blue;
+}
+.siyam {
+  display: grid;
+  /* grid-template-columns: 3fr 3fr 3fr 3fr; */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
